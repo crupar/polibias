@@ -1,6 +1,6 @@
 {
   "name": "polibias",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "list of possibly biased words and terms",
   "main": "index.js",
   "scripts": {
