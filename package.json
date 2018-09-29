@@ -11,7 +11,9 @@
     "url": "git+https://github.com/crupar/polibias.git"
   },
   "keywords": [
-    "polibias"
+    "polibias",
+    "TruthGoggles",
+    "political bias"
   ],
   "author": "C Rupar",
   "license": "MIT",
