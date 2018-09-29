@@ -14,12 +14,12 @@
     "polibias"
   ],
   "author": "C Rupar",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/crupar/polibias/issues"
   },
   "homepage": "https://github.com/crupar/polibias#readme",
   "dependencies": {
-    "polibias": "0.0.1"
+    "polibias": "^0.0.1"
   }
 }
