@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/crupar/polibias/issues"
   },
-  "homepage": "https://github.com/crupar/polibias#readme",
-  "dependencies": {
-    "polibias": "^0.0.0"
-  }
+  "homepage": "https://github.com/crupar/polibias#readme"
 }
