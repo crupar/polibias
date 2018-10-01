@@ -13,19 +13,10 @@ var map = require('map-stream');
 var sort = require('sort-stream');
 var normalize = require('nlcst-normalize');
 
-/* Outside source. */
-var words = got
-  .stream('http://____.txt')
-  .pipe(split());
-
 /* Load. */
 var localBiased = fs
   .createReadStream(path.join('script', 'biased.txt'))
   .pipe(split());
-
-
-/* Generate. */
-merge(words, localBiased)
   .pipe(map(function (data, callback) {
     callback(null, normalize(data).trim());
   }))
