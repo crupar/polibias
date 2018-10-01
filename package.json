@@ -1,8 +1,7 @@
 {
-  "name": "polibias",
-  "version": "0.0.5",
+  "name": "polibiased",
+  "version": "1.0.0",
   "description": "list of possibly biased words and terms",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +10,6 @@
     "url": "git+https://github.com/crupar/polibias.git"
   },
   "keywords": [
-    "polibias",
-    "TruthGoggles",
     "political bias"
   ],
   "author": "C Rupar",
